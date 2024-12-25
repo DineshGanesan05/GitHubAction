@@ -1,4 +1,4 @@
-name: cron
+name: Cronjob
 on:
   schedule:
     - cron: '* * * * *'
@@ -15,5 +15,5 @@ jobs:
         with:
           python-version: '3.10'
 
-     - name: Run Python script
-        run: python 01.hello.py     
+      - name: Run Python script
+        run: python 01.hello.py
